@@ -7,21 +7,16 @@ Sprint: 1
 ## Section 1: Target Audience & Market Focus
 
 ### Primary Persona:
-Retail consumers who read for leisure or study — students, working professionals, and casual readers aged 16–45 who want to browse and buy books online without visiting a physical store.
+Retail consumers who read for leisure or study. students, working professionals, and casual readers aged 18–45 who want to browse and buy books online without visiting a physical store.
 
 ### Core Pain Point:
-Readers may need to search multiple physical or online bookstores to find a particular book, compare
-prices, and determine whether it is currently available. This process can be time-consuming and
-inconvenient, especially when the desired book is not available at a nearby store.
-The proposed system addresses this problem by providing a centralized online bookstore where customers
-can browse, search, filter, check book availability and prices, add books to a shopping cart, and place orders
+Readers may need to search multiple physical or online bookstores to find a particular book, compare prices, and determine whether it is currently available. This process can be time-consuming and inconvenient, especially when the desired book is not available at a nearby store.
+The proposed system addresses this problem by providing a centralized online bookstore where customers can browse, search, filter, check book availability and prices, add books to a shopping cart, and place orders
 online.
 
 ### Domain Scope:
 Market Vertical: Books & Reading / Online Book Retail
-The system focuses on the online sale of physical books. It will provide customers with access to
-categorized books and basic e-commerce functionality, while administrators will manage the book catalog
-and inventory.
+The system focuses on the online sale of physical books. It will provide customers with access to categorized books and basic e-commerce functionality, while administrators will manage the book catalog and inventory.
 
 ## 2. Minimum Viable Product (MVP) Feature Scope
 
@@ -38,14 +33,11 @@ The MVP is limited to the core workflows required to operate a functional online
 ## 3. Tech Stack Selection & Justification
 
 ### Frontend Framework: React
-Justification: React's component-based architecture is suitable for building reusable interfaces such as Book Cards, navigation, search, book listings, product details, carts, and checkout pages. It provides a structured approach to managing interactive UI while remaining well supported by a large ecosystem
+Justification: React's component-based architecture is suitable for building reusable interfaces such as Book Cards, navigation, search, book listings, product details, carts, and checkout pages. It provides a structured approach to managing interactive UI while remaining well supported by a large ecosystem.
 
 ### Backend Infrastructure: Node.js/Express
 Justification: Node.js with Express is selected because it allows the project to use JavaScript across both the React frontend and backend, reducing
-the need to manage different programming languages. Express
-provides a lightweight and well-supported environment for
-implementing authentication, product management, cart
-operations, order processing, and REST APIs, while remaining
+the need to manage different programming languages. Express provides a lightweight and well-supported environment for authentication, product management, cart operations, order processing, and REST APIs, while remaining
 sufficient for the expected academic workload.
 
 ### Database Management System: MySQL
@@ -53,17 +45,12 @@ Justification: MySQL is appropriate because the bookstore contains structured re
 
 ### Caching & Asynchronous Processing: Not included in MVP
 Justification: Redis or another caching/asynchronous processing layer is not
-required for the initial project scope because the expected
-workload does not justify the additional architectural complexity. It
-can be considered later if performance optimization or background
-processing becomes necessary.
+required for the initial project scope because the expected workload does not justify the additional architectural complexity. It can be considered later if performance optimization or background processing becomes necessary.
 
 ### Overall Architecture
 The application will follow a client-server architecture:
 **React Frontend → REST API → Node.js/Express Backend → MySQL Database**
-The React frontend will provide the user interface and communicate with the backend through API
-requests. The Node.js/Express backend will handle business logic, authentication, product operations, cart
-management, and order processing, while MySQL will persist the application's relational data.
+The React frontend will provide the user interface and communicate with the backend through API requests. The Node.js/Express backend will handle business logic, authentication, product operations, cart management, and order processing, while MySQL will persist the application's relational data.
 
 ## 4. Entity-Relationship Diagram (ERD)
 
