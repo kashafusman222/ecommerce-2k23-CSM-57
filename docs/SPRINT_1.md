@@ -4,6 +4,9 @@ Project: Pages & Prose —  Online Bookstore
 Course: E-Commerce
 Sprint: 1
 
+Name: Kashaf Usman
+Roll No: 2k23/CSM/57
+
 ## Section 1: Target Audience & Market Focus
 
 ### Primary Persona:
